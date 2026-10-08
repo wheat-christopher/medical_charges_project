@@ -1,12 +1,10 @@
-# Smokers Cost 3.8x More. The Law Caps Their Premium at 1.5x.
+# Smokers Cost 3.8x More. The Affordable Care Act Caps Their Premium at 1.5x.
 
 **What drives medical charges, and how well do the factors an insurer is legally allowed to price on track actual cost?**
 
 An Excel and Tableau analysis of 1,338 insurance policyholders.
 
-[Tableau Public dashboard](TODO-link)
-
-![Dashboard](TODO-dashboard-image.png)
+<img width="1577" height="873" alt="smoker_dashboard" src="https://github.com/user-attachments/assets/f70fe507-d0b1-4de8-8c75-c82620f8a766" />
 
 ---
 
@@ -14,11 +12,11 @@ An Excel and Tableau analysis of 1,338 insurance policyholders.
 
 - **Smoking is the dominant cost driver.** Smoking status alone explains about 62% of the variation in charges (r = 0.787). Age and BMI are a distant second and third.
 - **Smokers incur 3.8x the average charges of non-smokers, but US law caps the tobacco surcharge at 1.5x.** Smokers are 20.5% of policyholders but account for 49.5% of all charges. Put in people: 5 smokers cost about the same as 19 non-smokers. Under the cap, non-smokers subsidize part of smokers' costs.
-- **The smoking penalty grows sharply with obesity.** In the normal and overweight BMI ranges, smokers cost about 2.6x to 2.7x what non-smokers in the same range cost. At BMI 30 and above, that gap widens to 4.4x to 5.5x. Non-smoker charges barely move across BMI categories.
+- **The smoking penalty grows sharply with obesity.** In the normal and overweight BMI ranges, smokers cost about 2.6x to 2.7x what non-smokers in the same range cost. At BMI 30 and above, that gap widens.
 
 ## The business question
 
-Most analyses of this dataset stop at exploratory charts or a prediction model. This one asks a pricing question: **what can an insurer legally charge for, and how well do those factors line up with what people actually cost?**
+**what can an insurer legally charge for, and how well do those factors line up with what people actually cost?**
 
 Under the Affordable Care Act, individual-market premiums may vary only by:
 
@@ -132,9 +130,9 @@ Charges rise steadily with age for everyone. Colored by smoker status, smokers f
 ## Tools
 
 - **Excel:** XLOOKUP, TEXTJOIN, AVERAGEIFS, PivotTables, conditional formatting, Data Analysis ToolPak (correlation, regression).
-- **Tableau:** dashboard.
+- **Tableau:** Data Visualization
 
-No code was used. All analysis was done in Excel.
+All analysis was done in Excel then visualized in Tableau.
 
 ## Next steps
 
